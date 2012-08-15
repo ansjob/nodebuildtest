@@ -1,0 +1,13 @@
+{
+	"name" 		: "somewebproject",
+	"description"	: "Some web project that includes a web server part, and a client part",
+	"author"	: "Andreas Sjöberg <ansjob@kth.se>",
+	"engine"	: "node >= 0.6.12",
+	"dependencies" : {
+		"nodeunit"	: ">= 0.4.7"
+	},
+	"scripts": {
+		"test"		: "./run_tests.sh"
+	},
+	"version"	: "0.0.1"
+}

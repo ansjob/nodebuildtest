@@ -1,0 +1,6 @@
+[submodule "node_modules/nodeunit"]
+	path = node_modules/nodeunit
+	url = git://github.com/caolan/nodeunit.git
+[submodule "public/js/lib/jasmine"]
+	path = public/js/lib/jasmine
+	url = git://github.com/pivotal/jasmine.git
