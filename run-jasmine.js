@@ -69,7 +69,6 @@ page.open(system.args[1], function(status){
 					console.log($(all_failing[idx]).text());
 				}
 				var passing = all_failing.length == 0;
-				console.log(passing ? "All tests passing!" : "Some tests failed");
 				var summaryMsg = passing ? $(".passingAlert").text() : $(".resultsMenu").text();
 				console.log(summaryMsg);
 				return passing;
